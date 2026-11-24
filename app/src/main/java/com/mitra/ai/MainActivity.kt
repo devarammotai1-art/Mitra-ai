@@ -21,7 +21,7 @@ import okhttp3.RequestBody.Companion.toRequestBody
 import org.json.JSONObject
 import org.json.JSONArray
 
-private const val API_KEY = AIzaSyBUXIYCjUHFl55BQYTVhZc2BcAzaQRzHLo
+private const val API_KEY = "AIzaSyBUXIYCjUHFl55BQYTVhZc2BcAzaQRzHLo"
 
 data class ChatMessage(val text: String, val isUser: Boolean)
 
